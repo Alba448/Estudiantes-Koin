@@ -3,7 +3,7 @@ package org.example.database.data
 import org.example.Estudiante.models.Estudiante
 /**
  * Inicializa una lista de estudiantes de muestra con datos predefinidos.
- * @return Una lista de objetos [Estudiante] con datos predefinidos.
+ * @return Una lista de objetos [estudiante] con datos predefinidos.
  */
 fun initDemoEstudiante() = listOf(
     Estudiante(id=1, nombre = "Pepe", calificacion=4.8),

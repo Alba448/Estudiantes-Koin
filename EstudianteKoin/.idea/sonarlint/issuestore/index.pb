@@ -23,8 +23,6 @@ Y
 )src/main/kotlin/database/data/DemoData.kt,e\7\e76024aff8c5ed8cd3e9bbcc3dfff0d038a5d628
 e
 5src/main/kotlin/database/service/SqlDeLightManager.kt,d\a\da00725f06ad9f0673ca75528717a1b06029f4b1
-Y
-)src/main/sqldelight/database/DataBase.sql,3\b\3b01167d6b5a5d8bd6cb2133f7e0a13c825769ff
 h
 8src/main/kotlin/Estudiante/services/EstudianteService.kt,8\3\837fb8284f40d526610945b802f462d9c5124258
 l
@@ -45,7 +43,5 @@ Z
 *src/main/kotlin/cache/errors/CacheError.kt,2\e\2e1f59f5125af1491e04a37ba2cc67a0ceb9397f
 X
 (src/main/sqldelight/database/DataBase.sq,4\7\47b0111934eb3035567c89d2bac30d59d8ddf18f
-_
-/src/main/kotlin/Estudiante/dto/EstudianteDto.kt,2\c\2cfb32d166af159f60cc707f9c61dadbd4a0b280
 f
 6src/main/kotlin/Estudiante/mappers/EstudianteMapper.kt,b\e\bedff8dc7bfec0e7ca19c7c2d81f7abf5326c975

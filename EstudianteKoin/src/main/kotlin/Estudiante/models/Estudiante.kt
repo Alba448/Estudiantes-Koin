@@ -10,7 +10,7 @@ import java.time.LocalDateTime
  * @property createdAt La fecha y hora de creación del estudiante.
  * @property updatedAt La fecha y hora de la última actualización del estudiante.
  * @property isDeleted Indica si el estudiante ha sido eliminado.
- * @constructor Crea un nuevo objeto [Estudiante] con los datos especificados.
+ * @constructor Crea un nuevo objeto [estudiante] con los datos especificados.
  */
 class Estudiante(
     val id: Long,
