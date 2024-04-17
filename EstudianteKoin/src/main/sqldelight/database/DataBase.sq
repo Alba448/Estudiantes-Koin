@@ -1,0 +1,39 @@
+-- Database: Tablas y Operaciones CRUD
+
+-- Tabla de estudiante
+CREATE TABLE IF NOT EXISTS EstudianteEntity (
+                                              id INTEGER PRIMARY KEY,
+                                              nombre TEXT NOT NULL,
+                                              calificacion REAL NOT NULL,
+                                              created_at TEXT NOT NULL,
+                                              updated_at TEXT NOT NULL,
+                                              is_deleted INTEGER NOT NULL DEFAULT 0
+
+);
+
+-- Operaciones CRUD para la tabla de estudiante
+removeAllEstudiante:
+DELETE FROM EstudianteEntity;
+
+selectAllEstudiante:
+SELECT * FROM EstudianteEntity;
+
+selectEstudianteById:
+SELECT * FROM EstudianteEntity WHERE id = ?;
+
+
+selectAllEstudianteBycalificacion:
+SELECT * FROM EstudianteEntity WHERE calificacion = ?;
+
+selectEstudianteLastInserted:
+SELECT * FROM EstudianteEntity WHERE id = last_insert_rowid();
+
+insertEstudiante:
+INSERT INTO EstudianteEntity (id, nombre, calificacion,created_at, updated_at) VALUES (?, ?, ?,?, ?);
+
+updateEstudiante:
+UPDATE EstudianteEntity SET  nombre = ?, calificacion = ?  updated_at = ?, is_deleted = ? WHERE id = ?;
+
+deleteEstudiante:
+DELETE FROM EstudianteEntity WHERE id = ?;
+
